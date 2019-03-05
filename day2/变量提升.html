@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // console.log(fo)
+        //    fo()
+        //    //函数定义部分
+        //    function fo() {
+        //        console.log('fo')
+        // //    }
+
+        // // // console.log(fn)
+        // // // function fn() {
+        // // //     console.log('fn')
+        // // // }
+        // // // console.log(fe)
+        // // // function fe() { }
+        // // // var fe
+        // //  foo()
+        // //  function foo() {
+        // //      console.log(111)
+        // //  }
+        // //  function foo() {
+        // //      console.log(222)
+        // //  }
+        // //  foo()
+
+        // //  foo()
+        // // var foo = function foo() {
+        // //      console.log(333)
+        // //  }
+        // //  foo()
+        // //  function foo() {
+        // //      console.log(666)
+        // //  }
+        // //  foo()
+        // function fo(a) {
+        //     console.log(a)
+        //     function a() {
+        //         console.log(a)
+        //     }
+        // }
+        // fo(100)
+
+        // console.log(num)
+        // function fe() {
+        //     var num
+        // // }
+        // function fe() {
+        //     t = 10
+        // }
+        // fe()
+        // // console.log(t)
+        // console.log(window.t)
+        function fn(n) {
+            return function(a) {
+                a++;
+                console.log((n += a));
+            };
+        }
+        var f = fn(10);
+        f(1);
+        f(2);
+    </script>
+</body>
+
+</html>
